@@ -1,0 +1,127 @@
+*{
+	margin: 0;padding: 0;text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	
+	background: -webkit-linear-gradient(#050505, #8a8a8a); 
+	background: -o-linear-gradient(#050505, #8a8a8a); 
+    background: -moz-linear-gradient(#050505, #8a8a8a); 
+    background: linear-gradient(#050505, #8a8a8a);
+}
+
+.top_wrap{
+	width: 100%;
+	height: 80px;
+	background: url(../images/top_bg.gif);
+	border-bottom: 1px solid #5f5d5d;
+}
+.top_wrap .top{
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto;
+}
+.top_wrap .top .top_logo{
+	float: left;
+	width: 173px;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 68px;
+}
+.top_wrap .top .top_mobile{
+	float: right;
+	width: 210px;
+	height: 30px;
+	margin-top: 20px;
+	background: url(../images/top_mobile.gif);
+	line-height: 25px;
+	text-indent: 3em;
+}
+.top_wrap .top .top_mobile p{
+	font-size: 12px;
+	color: #fff;
+}
+.top_nav{
+	width: 1000px;
+	height: 40px;
+	margin:0 auto;
+	background: url(../images/foot_bg.gif);
+}
+.top_nav ul li{
+	float: left;
+	width: 16%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.top_nav ul li img{
+	float: left;
+}
+.top_nav ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.top_nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.foot_wrap{
+	width: 100%;
+	height: 40px;
+	background: url(../images/foot_bg.gif);
+}
+.foot_wrap .foot{
+	width: 1000px;
+	height: 40px;
+	margin:0 auto;
+}
+.foot_wrap .foot ul li{
+	float: left;
+	line-height: 40px;
+}
+.foot_wrap .foot ul li a{
+	color: #6d6d6d;
+	padding: 0 5px;
+	font-size: 12px;
+}
+.foot_wrap .foot ul li span{
+	color: #6d6d6d;
+	font-size: 11px;
+}
+.foot_wrap .foot .foot_logo{
+	float: right;
+	width: 105px;
+	height: 33px;
+	background: url(../images/foot_logo.gif);
+}
+.foot_wrap .foot .foot_txt{
+	float: right;
+	width: 250px;
+	height: 40px;
+	color: #6d6d6d;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/* 内容 */
+.content{
+	width: 100%;
+	height: 893px;
+}
+.main_wrap{
+	width: 1000px;
+	height: 660px;
+	margin:0 auto;
+	background: #f0f0f0;
+}
+.main_wrap img{
+	float: left;
+}

@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.container{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.container .banner{
+	width: 1000px;
+	height: 103px;
+	background: url("../images/banner.gif") no-repeat center;
+}
+
+.container .title{
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	border-bottom: 1px solid #cacaca;
+}
+
+.container .title .title_left{
+	position: absolute;
+	left: 50px;
+	color: #3a0b00;
+	font-size: 22px;
+	font-weight: 400;
+
+}
+
+.container .title .title_right{
+	position: absolute;
+	right: 80px;
+	font-size: 12px;
+}
+
+.container .title .title_right span{
+	color: #bb3c03;
+}
+
+.container .title .title_right a{
+	color: #454545;
+}
+
+.container .title .title_right a:hover{
+	color: #ff0000;
+}
+
+.container .left{
+	width: 300px;
+	height: 346px;
+	float: left;
+}
+
+.container .left .daohang{
+	width: 225px;
+	height: 275px;
+	margin-left: 50px;
+	margin-top: 16px;
+}
+.container .left .daohang ul{
+	margin-bottom: 42px;
+}
+
+.container .left .daohang ul li{
+	display: block;
+	width: 225px;
+	height: 33px;
+	line-height: 33px;
+	font-size: 12px;
+	border-bottom: 1px dashed #cacaca;
+	background: url("../images/lib5.jpg") no-repeat 15px center;
+	text-indent: 40px;
+
+}
+
+.container .left .daohang ul li a{
+	color: #454545;
+}
+
+.container .left .daohang ul li a:hover{
+	color: #380c00;
+}
+
+.container .left .daohang .call ul li b{
+	display: block;
+	font-size: 16px;
+	font-weight: 800;
+	color: #380c00;
+	background: url("../images/亿贝通讯录_42.gif") no-repeat left;
+}
+
+.container .right{
+	float: left;
+	width: 700px;
+	height: 346px;
+}
+
+.container .right .three{
+	width: 660px;
+	height: auto;
+	padding: 0 20px;
+	margin: 16px 0;
+	border-left: 1px solid #cacaca;
+}
+
+.container .right .three dl{
+	font-size: 12px;
+	color: rgb(69, 69, 69);
+}
+.container .right .three dt {
+	height: 33px;
+	color: #fff;
+	font-weight: bold;
+	padding-left: 20px;
+	cursor: pointer;
+	text-indent: 30px;
+	line-height: 33px;
+	overflow: hidden;
+}
+
+.container .right .three dd {
+	display: none;
+	padding: 10px 40px 40px;
+	overflow: hidden;
+}
+
+.container .right .three dd a{
+	color: #ff0000;
+}
+
+.container .right .three .close{
+	background: url("../images/bar4.jpg") no-repeat;
+}
+
+.container .right .three .open{
+	background: url("../images/bar3.jpg") no-repeat;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			background: url("pic1.jpg");
+		}
+		.nav{
+			width: 100%;
+			height: 40px;
+			background-color: #333333;
+			opacity: 0.7;
+			margin:0 auto;
+
+		}
+		.nav ul{
+			width: 600px;
+			list-style: none;
+			margin:0 auto;
+		}
+		.nav ul li{
+			float: left;
+			line-height: 40px;
+			width: 100px;
+			position: relative;
+		}
+		.nav ul li a{
+			display: block;
+			width: 100px;
+			height:40px;
+			color: #ffffff;
+			text-decoration: none;
+			font-size: 12px;
+			text-align: center;
+		}
+		.nav ul li a:hover{
+			background-color: #ffc000;
+		}
+		.nav ul li ul{
+			opacity: 0;
+			background-color: #333333;
+			width: 100px;
+			position: absolute;
+			top: 40px;
+			left: 0px;
+			transition: opacity 0.5s ease;
+		}
+		.nav ul li:hover ul{
+			opacity: 1;
+		}
+		.nav ul li ul li{
+			float: none;
+			width: 100px;
+			height: 0px;
+			border-bottom: 1px solid #ffffff;
+			transition: height 0.25s ease;
+		}
+		.nav ul li:hover ul li{
+			height: 40px;
+			overflow: visible;
+		}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="">a</a></li>
+			<li><a href="">b</a></li>
+			<li><a href="">c</a>
+				<ul>
+					<li><a href="">c1</a></li>
+					<li><a href="">c2</a></li>
+					<li><a href="">c3</a></li>
+				</ul>
+			</li>
+			<li><a href="">d</a></li>
+			<li><a href="">e</a>
+				<ul>
+					<li><a href="">e1</a></li>
+					<li><a href="">e2</a></li>
+					<li><a href="">e3</a></li>
+				</ul>
+			</li>
+			<li><a href="">f</a></li>
+		</ul>
+	</div>
+</body>
+</html>

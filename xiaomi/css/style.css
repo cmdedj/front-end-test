@@ -1,0 +1,274 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+@font-face {font-family: "iconfont";
+	src: url('../font/iconfont.eot'); /* IE9*/
+	src: url('../font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/iconfont.woff') format('woff'), /* chrome, firefox */
+	url('../font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+	font-family:"iconfont" !important;
+	font-size:16px;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.guanggao{
+	width: 100%;
+	height: 120px;
+	background: url("../image/guanggao.png") no-repeat center;
+}
+.guanggao a{
+	display: block;
+	width:100%;
+	height: 120px;
+}
+
+.top{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+}
+
+.top .nav{
+	width: 1226px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: #333;
+
+}
+
+.top .nav .nav_left{
+	float: left;
+
+}
+
+.top .nav .nav_left ul li{
+	float: left;
+	line-height: 40px;
+}
+
+.top .nav .nav_left ul li a{
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-right: 10px;
+}
+
+.top .nav .nav_left ul li span{
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-right: 10px;
+}
+
+.top .nav .nav_left ul li a:hover{
+	color: #ffffff;
+}
+
+.top .nav .nav_right{
+	float: right;
+	line-height: 40px;
+}
+
+.top .nav .nav_right .login{
+	float: left;
+}
+
+.top .nav .nav_right .login ul li{
+	float: left;
+}
+
+.top .nav .nav_right .login ul li a{
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-right: 10px;
+}
+
+.top .nav .nav_right ul li a:hover{
+	color: #ffffff;
+}
+
+.top .nav .nav_right ul li span{
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-right: 10px;
+}
+
+.top .nav .nav_right .car{
+	float: left;
+}
+
+.top .nav .nav_right .car a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	background-color: #424242;
+	text-align: center;
+	color: #b0b0b0;
+	font-size: 12px;
+
+}
+
+.top .nav .nav_right .car a:hover{
+	color: #ff6700;
+	background-color: #ffffff;
+}
+
+.daohang{
+	width: 1226px;
+	height: 100px;
+	position: relative;
+	margin:0 auto;
+}
+.daohang .logo{
+	display: block;
+	width: 55px;
+	height:55px;
+	background: url("../image/mi.png");
+	position: absolute;
+	left: 0;
+	top: 22.5px;
+}
+
+.daohang .duobao{
+	display: block;
+	width: 165px;
+	height:100px;
+	background: url("../image/yyymix.gif") no-repeat center	;
+	position: absolute;
+	left: 69px;
+	top: 0;
+}
+
+.daohang ul{
+	width: 680px;
+	height: 100px;
+	position: absolute;
+	left: 234px;
+
+}
+.daohang ul li{
+	float: left;
+	line-height: 100px;
+	margin: 0 15px;
+}
+.daohang ul li a{
+	color: black;
+}
+.daohang ul li a:hover{
+	color: #ff6700;
+}
+
+.daohang .search .submit{
+	width: 52px;
+	height: 48px;
+	line-height: 24px;
+	font-size: 24px;
+	color: #616161;
+	background-color: white;
+	border: 1px solid #e0e0e0;
+	border-left-width: 0px;
+	position: absolute;
+	top: 25px;
+	right:0;
+}
+
+.daohang .search .text{
+	position: absolute;
+	top: 25px;
+	right: 52px;
+	width: 223px;
+	height: 48px;
+	padding: 0 10px;
+	border: 1px solid #e0e0e0;
+	font-size: 14px;
+	line-height: 48px;
+}
+
+.daohang .search .text:hover{
+	border: 1px solid #b0b0b0 !important;
+}
+.daohang .search .text:hover + .submit{
+	border: 1px solid #b0b0b0;
+	border-left-width: 0px;
+}
+
+.daohang .search .submit:hover{
+	border: none;
+	color: white;
+	background-color: #ff6700;
+}
+
+
+.banner{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner .pic{
+	width: 1226px;
+	height: 460px;
+
+}
+
+.banner .list{
+	width: 234px;
+	height: 460px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.banner .list ul{
+	margin: 20px 0;
+}
+
+
+
+.banner .list ul li:hover{
+	background-color: #ff6700;
+}
+
+.banner .list ul li a{
+	display: block;
+	width: 194px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0px 0px 0px 20px;
+	color: #ffffff;
+	position: relative;
+
+}
+
+.banner .list ul li a i{
+	position: absolute;
+	right: 0;
+}
+
+.banner .list ul li .zk{
+	width: 796px;
+	height: 460px;
+	background-color: white;
+	position: absolute;
+	left: 234px;
+	top: 0px;
+	display: none;
+	z-index: 3;
+}
+
+.banner .list ul li:hover .zk{
+	display: block;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
+
